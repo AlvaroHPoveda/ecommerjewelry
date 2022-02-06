@@ -1,5 +1,24 @@
 .mainAbout {
-    background-color: #faf8f0;
-    background-size: cover;  
-    height: 100vh;
-  }
+  background-color: #faf8f0;/*#b4a545*/
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5% 10%;  
+}
+
+.divabout01, .divabout02{
+  width: 50%;
+}
+
+.divabout01{
+  padding: 0 2%;
+}
+
+.divabout01 p{
+  margin: 20% 0;
+  text-align: justify;
+}
+
+.imgAbout{
+  padding: 5%;
+}

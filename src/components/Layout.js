@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { NavLink, Link, useNavigate, useParams } from "react-router-dom";
-import "../styles/header.css";
+import "../styles/layout.css";
 
 const Layout = () => {
   const { id } = useParams();
@@ -13,14 +13,17 @@ const Layout = () => {
     localStorage.setItem("token", "");
     navigate("/login");
   };
+
   let countQuantity = 0;
   productsCart.map(
     (productCart) => (countQuantity = productCart.quantity + countQuantity)
   );
 
   return (
-    <header className="header">
-      <h1 className="h1Header">Jewelry Store</h1>
+    <header className="header" >
+      <Link className="linkh1Header" to="/home">
+        <h1 className="h1Header">Jewelry Store</h1>
+      </Link>
       <div className="divIconHeader">
         <div>
           <button className="iconHeader1" onClick={logOut}>

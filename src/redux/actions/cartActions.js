@@ -1,6 +1,6 @@
 import axios from "axios";
 import { getConfig } from "../../utils";
-import { setIsLoading, handleError  } from ".";
+import { setIsLoading, handleError } from ".";
 
 export const cartActions = {
   setCart: "SET_CART",

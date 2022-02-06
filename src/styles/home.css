@@ -1,0 +1,36 @@
+.mainhome {
+  background-color: #faf8f0;
+  background-size: cover;  
+}
+
+.divScreenshot01{
+  display: flex;
+  justify-content: center; 
+  
+}
+
+.Screenshot01{
+  width: 80%;
+  margin: 2%;  
+}
+
+.divScreenshot02{
+  display: flex;
+  justify-content: left;  
+}
+
+.Screenshot02{
+  width: 50%;
+  margin-left: 10%;  
+}
+
+.divScreenshot03{
+  display: flex;
+  justify-content: center; 
+  
+}
+
+.Screenshot03{
+  width: 80%;
+  margin: 2%;  
+}

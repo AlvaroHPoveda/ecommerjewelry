@@ -64,10 +64,14 @@ const Footer = () => {
       <div className="linkredes">
         <ul className="ulfooter">
           <li className="lifooter02">
-            <a href="https://www.instagram.com/accounts/login/?next=/academlohq/">Instagram</a>
+            <a href="https://www.instagram.com/accounts/login/?next=/academlohq/">
+              Instagram
+            </a>
           </li>
           <li className="lifooter02">
-            <a href="https://yt3.ggpht.com/ytc/AKedOLSm2IwzXy8wXwDP7AvkrSYwHT8H333_WRW0Oyff=s176-c-k-c0x00ffffff-no-rj-mo">Youtube</a>
+            <a href="https://yt3.ggpht.com/ytc/AKedOLSm2IwzXy8wXwDP7AvkrSYwHT8H333_WRW0Oyff=s176-c-k-c0x00ffffff-no-rj-mo">
+              Youtube
+            </a>
           </li>
         </ul>
       </div>

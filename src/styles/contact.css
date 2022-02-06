@@ -1,5 +1,16 @@
 .mainContact {
-    background-color: #faf8f0;
-    background-size: cover;  
-    height: 100vh;
-  }
+  background-color: #faf8f0;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5% 20%;
+}
+
+.divContact01,
+.divContact02 {
+  width: 50%;
+}
+
+.divContact02 p {
+  margin: 5% 0;
+}

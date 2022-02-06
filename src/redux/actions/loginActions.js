@@ -9,7 +9,7 @@ export const doLoginThunk = (data) => {
       .post("https://ecommerce-exercise-backend.herokuapp.com/login/", data)
       .then((res) => {
         localStorage.setItem("token", res.data.access);
-        history.replace("/shop");
+        history.replace("/home");
       })
       .finally(() => dispatch(setIsLoading(false)));
   };

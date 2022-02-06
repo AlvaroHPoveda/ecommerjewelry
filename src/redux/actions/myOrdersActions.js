@@ -1,6 +1,6 @@
 import axios from "axios";
 import { getConfig } from "../../utils";
-import { setIsLoading, handleError  } from ".";
+import { setIsLoading, handleError } from ".";
 import { getcartThunk } from "../actions";
 
 export const myOrdersActions = {
