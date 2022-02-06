@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bellota Text", cursive;
+}
+.mainShopDetail {
+  background-color: #faf8f0;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.imgShopDetail {
+  width: 20rem;
+  background-color: #000;
+}
+
+.divPart01ShopDetail {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 15%;
+}
+
+.containerSlider,
+.info {
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+}
+
+.info {  
+  display: flex;
+  flex-direction: column;  
+}
+
+.info p, .info span {
+  margin: 2%;
+}
+
+.info button {
+  margin: 2%;
+}
+
+.info button:hover { 
+  background-color: #080808;
+  color: #fff; 
+}
+
+.quantity{
+  display:flex;
+  flex-direction: row;  
+  justify-content: center;
+  align-items: center; 
+}
+
+.quantity input{
+  height: 2rem;
+  width: 5rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.addCart{
+  height: 2.5rem;
+  width: 100%;
+  background-color: #faf8f0;
+  margin-left: 0.5rem;
+  font-weight: 800;
+}
+
+/*-----------------*/
+.slider {
+  overflow: hidden;
+  width: 20rem;
+}
+.containerSlider {
+  display: flex;
+  transition: transform 1s;
+}
+
+.buttonSlider {
+  background-color: #000;
+  border: none;
+  margin: 18px 7px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.buttonSlider:hover {
+  background-color: #000;
+}
+.buttonSlider.active {
+  width: 27px;
+  border-radius: 27px;
+}
+/*-----------------*/
+.info {
+  padding: 0 5rem;
+}
+
+.info p {
+  margin-bottom: 1rem;
+}

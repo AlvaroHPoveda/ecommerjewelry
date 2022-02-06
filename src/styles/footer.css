@@ -1,0 +1,29 @@
+.mainfooter {
+  background-color: #f5f3e6;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+h2,
+.ulfooter,
+.linkredes {
+  width: 33%;
+  padding: 4rem;
+}
+
+.lifooter {
+  list-style: none;
+}
+
+.lifooter02 {
+  list-style: none;
+  text-decoration: none;
+}
+
+.lifooter02 a {
+  text-decoration: none;
+}

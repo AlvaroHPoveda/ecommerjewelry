@@ -1,0 +1,59 @@
+.mainLogin {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://i.gifer.com/3kX.gif");
+  background-size: cover;
+}
+
+.cardLogin {
+  border: 1px solid #000;
+  height: 30rem;
+  width: 19rem;
+  padding: 1rem;
+  background-color: #faf8f0;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.cardLogin h2 {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
+.divardLogin {
+  background-color: rgba(134, 183, 209, 0.644);
+  padding: 1rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  height: 7rem;
+  margin-bottom: 2rem;
+}
+
+.divardLogin h4 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.inputLogin {
+  width: 17rem;
+  height: 2rem;
+  margin: 0.5rem 0;
+}
+
+.buttonLogin {
+  width: 17rem;
+  height: 2rem;
+  margin: 0.5rem 0;
+  color: #fff;
+  background-color: #000;
+}

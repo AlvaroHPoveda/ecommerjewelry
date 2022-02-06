@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route, Navigate } from "react-router-dom";
+import { Login, Shop, ShopDetail, Cart, About, Contact, Myorders } from "./pages";
+import {ProtectedRoutes, Loading, CustomRouter} from "./components";
+import { history } from "./utils";
+import { useSelector } from "react-redux";
+import "./styles.css";
+
 
 function App() {
+  const isLoading = useSelector((state) => state.app.isLoading);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <CustomRouter history={history}>
+        {isLoading && <Loading />}
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Navigate to="/shop" />} />
+          <Route element={<ProtectedRoutes />}>
+            <Route path="/shop" element={<Shop />} />
+            <Route path="/shop/:id" element={<ShopDetail />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/myorders" element={<Myorders />} />
+          </Route>
+        </Routes>
+      </CustomRouter>
     </div>
   );
 }

@@ -1,0 +1,111 @@
+.mainMyorders {
+    background-color: #faf8f0;
+    background-size: cover;    
+  }
+  
+  .h2Cart {
+    margin: 0 15%;
+  }
+  
+  .gridheadernameColumn {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 15%;
+  }
+  
+  .gridheadernameColumn div {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .gridheadernameColumn div span {
+    padding: 1rem 2rem;
+  }
+  
+  .gridCart {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid rgb(206, 204, 204);
+    border-bottom: 1px solid rgb(206, 204, 204);
+    margin: 0 15%;
+  }
+  
+  .gridCart-column01,
+  .gridCart-column02 {
+    width: 50%;
+  }
+  
+  .gridCart-column01 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .gridCart-column02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+  }
+  .cart-imgShop {
+    width: 10rem;
+    margin-top: 1rem;
+  }
+  
+  .cart-column {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .cart-button {
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    margin: 2rem;
+    cursor: pointer;
+  }
+  
+  .inputCart {
+    text-align: center;
+    width: 2rem;
+  }
+  
+  .inputCart::placeholder {
+    color: #000;
+  }
+  
+  .subTotal {
+    padding: 4% 0;
+    margin: 0 15%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  
+  .subTotal h3 {
+    margin: 0 2rem;
+  }
+  
+  .divbuttonCheckout {
+    display: flex;
+    justify-content: right;
+    margin: 0 15%;
+    padding-bottom: 2%;
+  }
+  
+  .buttonCheckout {
+    height: 3.5rem;
+    width: 15rem;
+    background-color: #faf8f0;
+    margin-left: 0.5rem;
+    font-weight: 800;
+  }
+  
+  .buttonCheckout:hover {
+    background-color: #080808;
+    color: #fff;
+  }

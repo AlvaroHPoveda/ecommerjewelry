@@ -1,0 +1,53 @@
+.header {
+  background-color: #faf8f0;
+  background-size: cover;  
+  margin: 0;
+  padding: 0;
+}
+
+.divIconHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 10rem;
+}
+
+.ulHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+ 
+
+.liHeader {
+  padding: 0 1rem;
+  font-size: 1rem;
+}
+
+.iconHeader1,
+.iconHeader2 {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+}
+
+.iconHeader1 {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+.h1Header {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.fab{
+  padding-left: 1rem;
+  color: #000;
+}
