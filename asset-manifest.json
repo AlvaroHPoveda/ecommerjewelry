@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ecommerjewelry/static/css/main.8bb3a5cc.css",
+    "main.js": "/ecommerjewelry/static/js/main.015d9fb8.js",
+    "static/media/Screenshot01.png": "/ecommerjewelry/static/media/Screenshot01.92242a681d20ce8ef689.png",
+    "static/media/Screenshot02.png": "/ecommerjewelry/static/media/Screenshot02.9fd3d908e3ab56d89538.png",
+    "static/media/Screenshot03.png": "/ecommerjewelry/static/media/Screenshot03.8682c23528e98af556ba.png",
+    "static/media/Screenshot04.png": "/ecommerjewelry/static/media/Screenshot04.d2c81116b578b320c748.png",
+    "index.html": "/ecommerjewelry/index.html",
+    "main.8bb3a5cc.css.map": "/ecommerjewelry/static/css/main.8bb3a5cc.css.map",
+    "main.015d9fb8.js.map": "/ecommerjewelry/static/js/main.015d9fb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bb3a5cc.css",
+    "static/js/main.015d9fb8.js"
+  ]
+}
